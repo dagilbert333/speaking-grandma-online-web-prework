@@ -10,13 +10,16 @@ def speak_to_grandma(speak)
   end 
 end
 
-def test()
+def test(speak)
   if speak != speak.upcase
-    return "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
+    return "I'm new"
   elsif speak == "I LOVE YOU GRANDMA!"
-   return "I LOVE YOU TOO PUMPKIN!"
+   puts "I LOVE YOU TOO PUMPKIN!"
+   return "I'm new"
   else
-    return "NO, NOT SINCE 1938!"
+    puts "NO, NOT SINCE 1938!"
+    return "I'm new"
   end 
 end
 
