@@ -13,14 +13,12 @@ end
 def test(speak)
   if speak != speak.upcase
     puts "HUH?! SPEAK UP, SONNY!"
-    return "I'm new"
   elsif speak == "I LOVE YOU GRANDMA!"
    puts "I LOVE YOU TOO PUMPKIN!"
-   return "I'm new"
   else
     puts "NO, NOT SINCE 1938!"
-    return "I'm new"
   end 
+  return "I'm new!"
 end
 
 # Whatever you say to grandma, she should respond with
